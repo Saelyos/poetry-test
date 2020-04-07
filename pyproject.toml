@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry-test"
+version = "0.1.0"
+description = ""
+authors = ["lambdalisue <lambdalisue@hashnote.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+package-a = { path = "./package-a" }
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"

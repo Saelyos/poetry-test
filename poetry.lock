@@ -1,0 +1,20 @@
+[[package]]
+category = "main"
+description = ""
+develop = true
+name = "package-a"
+optional = false
+python-versions = "^3.7"
+version = "0.1.0"
+
+[package.source]
+reference = ""
+type = "directory"
+url = "package-a"
+
+[metadata]
+content-hash = "99fb6c899e9a22db14aa4343589009cf1f5f9da9bdf1c562356393f146086c8e"
+python-versions = "^3.7"
+
+[metadata.files]
+package-a = []
